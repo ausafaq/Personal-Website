@@ -1,0 +1,81 @@
+<!DOCTYPE html />
+<html lang="en-US">
+  <head>
+    <title>Ausaf Ahmed</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+
+  <body>
+    <!-- HOME -->
+    <section class="home container">
+      <h1
+        class="typewrite"
+        id="animtext"
+        data-period="500"
+        data-type='[ "Hello, World!"]'
+      ></h1>
+
+      <h3>
+        I'm Ausaf. I build and deploy softwares with great focus on
+        stunning user interface, design, optimization and security. I'm
+        passionate about developing and designing brilliant innovative products.
+      </h3>
+
+      <a class="button" href="assets/resume.pdf "
+        >Download Resume </a>
+
+      <div class="social-links">
+            <a
+              href="https://linkedin/in/iambolajiayo"
+              class="fa fa-linkedin fa-2x"
+            ></a>
+          </li>
+            <a
+              href="https://github.com/bolajiayodeji"
+              class="fa fa-github fa-2x"
+            ></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP
+    <a style="text-decoration: none" class="scroll-to-top smoothScroll" href="#home">
+        <i class="fa fa-arrow-up"></i></a> -->
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    -->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/app.min.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').then(function() {
+            console.log('Service Worker Registered');
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

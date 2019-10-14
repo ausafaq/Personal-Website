@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('../css/hover-min.css');
+@import url('../css/bootstrap.min.css');
+@import url('../css/magnific-popup.css');
+@import url('../css/font-awesome.min.css');
+
+body {
+  background: #f7f7f7;
+  font-family: 'Rubik';
+  overflow-x: hidden;
+}
+
+/*---------------------------------------
+  TYPOGRAPHY
+-----------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  line-height: inherit;
+  letter-spacing: -1px;
+}
+
+h1 {
+  color: #282828;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #282828;
+  font-size: 2em;
+}
+
+h3 {
+  color: #282828;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: #282828;
+  font-size: 18px;
+  line-height: normal;
+}
+
+p {
+  color: #282828;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.home {
+  margin: 150px auto;
+}
+
+.social-links a {
+  margin: 10px;
+  color: #030303;
+  text-decoration: none;
+}
+
+.button {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background-size: 300% auto;
+  border-radius: 4px;
+  color: #fff;
+  background: #3cd3ad;
+  -webkit-animation: ani 6s ease infinite;
+  animation: ani 6s ease infinite;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.15),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+a:hover {
+  text-decoration: none;
+}
