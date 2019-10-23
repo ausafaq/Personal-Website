@@ -93,7 +93,7 @@ a:hover {
 
 #particles-js canvas {
   display: block;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
