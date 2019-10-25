@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('../css/hover-min.css');
 @import url('../css/bootstrap.min.css');
 @import url('../css/magnific-popup.css');
@@ -6,7 +6,7 @@
 
 body {
   background: #f7f7f7;
-  font-family: 'Rubik';
+  font-family: 'Roboto';
   overflow-x: hidden;
 }
 
@@ -28,7 +28,7 @@ h6 {
 h1 {
   color: #282828;
   font-size: 3em;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -71,20 +71,46 @@ strong {
 }
 
 .button {
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
-  padding: 10px 15px;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  background-size: 300% auto;
+  line-height: 40px;
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  /* font-size: 16px; */
+  text-align: center;
+  /* border: 1px solid #dadada; */
+  width: 300px;
+  transition: all 0.2s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border-radius: 4px;
-  color: #fff;
-  background: #3cd3ad;
-  -webkit-animation: ani 6s ease infinite;
-  animation: ani 6s ease infinite;
+  background-color: #282828;
+  color: white;
+  padding: 0 16px;
+  display: inline-block;
+  /* font-size: 14px; */
+  transition: background-color 0.3s, transform 0.1s;
+  cursor: pointer;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.15),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.button:hover {
+  background-color: #58b368;
+  color: white;
+  border: none;
+}
+
+.icon {
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.icon:hover {
+  color: #58b368;
+  border: none;
+}
+
+.mainline {
+  border-bottom: 3px solid #58b368;
 }
 
 a:hover {
